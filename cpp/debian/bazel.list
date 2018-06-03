@@ -1,0 +1,4 @@
+# curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+# see https://docs.bazel.build/versions/master/install-ubuntu.html
+#
+deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8

@@ -1,0 +1,11 @@
+# install the keys
+# curl -sL https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
+#
+deb http://apt.llvm.org/stretch/ llvm-toolchain-stretch main
+deb-src http://apt.llvm.org/stretch/ llvm-toolchain-stretch main
+# 5.0
+deb http://apt.llvm.org/stretch/ llvm-toolchain-stretch-5.0 main
+deb-src http://apt.llvm.org/stretch/ llvm-toolchain-stretch-5.0 main
+# 6.0
+deb http://apt.llvm.org/stretch/ llvm-toolchain-stretch-6.0 main
+deb-src http://apt.llvm.org/stretch/ llvm-toolchain-stretch-6.0 main
